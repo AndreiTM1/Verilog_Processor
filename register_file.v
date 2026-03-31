@@ -1,4 +1,4 @@
-module register_file(
+module register_file (
     input clk,
     input regwrite,
     input [4:0]     read_reg1,
