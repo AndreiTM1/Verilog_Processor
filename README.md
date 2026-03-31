@@ -1,0 +1,1 @@
+This is a simple MIPS based processor I wrote in Verilog. I wanted to create this project because I have studied microprocessor architecture and Verilog, so I implemented one. I have only implemented some simple logical and arithmetical operations so far, and the processor read the instructions from a .hex file.
