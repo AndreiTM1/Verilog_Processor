@@ -10,8 +10,8 @@ module processor_tb;
     wire [31:0] pc;
     wire [31:0] alu_result;
 
-    // Instanțierea Unității de Test (UUT - Unit Under Test)
-    processor uut (
+    // Instanțierea Unității de Test (DUT - Unit Under Test)
+    processor dut (
         .clk(clk),
         .rst_n(rst_n),
         .pc_out(pc),

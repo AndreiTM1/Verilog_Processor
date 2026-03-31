@@ -1,0 +1,187 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/andreitm/Documents/proiectele_mele/procesor_verilog
+valu
+Z1 !s110 1774969607
+!i10b 1
+!s100 ;n[_`@TNb3IiOFhWA:YjH2
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+Io_E`XUUWXl`5^0;nndn^=3
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1774965197
+8alu.v
+Falu.v
+!i122 1
+L0 1 22
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1774969607.000000
+!s107 tb.v|sign_extend.v|register_file.v|program_counter.v|processor.v|instruction_memory.v|control_unit.v|alu.v|
+Z6 !s90 -reportprogress|300|alu.v|control_unit.v|instruction_memory.v|processor.v|program_counter.v|register_file.v|sign_extend.v|tb.v|
+!i113 1
+Z7 tCvgOpt 0
+vcontrol_unit
+R1
+!i10b 1
+!s100 gAbW]81Fk7A>Ol0S[F3=13
+R2
+If?Vd1_V=:8JhRXES9gzKh1
+R3
+R0
+w1774968890
+8control_unit.v
+Fcontrol_unit.v
+!i122 1
+L0 1 59
+R4
+r1
+!s85 0
+31
+R5
+Z8 !s107 tb.v|sign_extend.v|register_file.v|program_counter.v|processor.v|instruction_memory.v|control_unit.v|alu.v|
+R6
+!i113 1
+R7
+vinstruction_memory
+R1
+!i10b 1
+!s100 @TbL2kU4?Y=4Kk2ZTnS_41
+R2
+Iz?50T1iiKW3Y4NjE_XW_b2
+R3
+R0
+w1774904059
+8instruction_memory.v
+Finstruction_memory.v
+!i122 1
+L0 1 14
+R4
+r1
+!s85 0
+31
+R5
+R8
+R6
+!i113 1
+R7
+vprocessor
+R1
+!i10b 1
+!s100 8l^FQCCfX9@?7W5R?04BL1
+R2
+I3YWn^b1V]d4^XAcelazhI1
+R3
+R0
+w1774968943
+8processor.v
+Fprocessor.v
+!i122 1
+L0 1 95
+R4
+r1
+!s85 0
+31
+R5
+R8
+R6
+!i113 1
+R7
+vprocessor_tb
+R1
+!i10b 1
+!s100 VVY@6KXC7c>Zid?E=jUUP1
+R2
+IXLGZ7cEMbD43HPJ7X>DFi1
+R3
+R0
+w1774969561
+8tb.v
+Ftb.v
+!i122 1
+L0 3 46
+R4
+r1
+!s85 0
+31
+R5
+R8
+R6
+!i113 1
+R7
+vprogram_counter
+R1
+!i10b 1
+!s100 b=M0W5<IG:P>?MP61H6CV0
+R2
+I1mUf]D>@G;eJ<egZUM2Da2
+R3
+R0
+w1774903380
+8program_counter.v
+Fprogram_counter.v
+!i122 1
+L0 1 13
+R4
+r1
+!s85 0
+31
+R5
+R8
+R6
+!i113 1
+R7
+vregister_file
+R1
+!i10b 1
+!s100 a3;m5]Mk7zh]8H6;:9AY=0
+R2
+I0C:4o_5:LV=1Ve@Ra:47H3
+R3
+R0
+w1774965243
+8register_file.v
+Fregister_file.v
+!i122 1
+L0 1 23
+R4
+r1
+!s85 0
+31
+R5
+R8
+R6
+!i113 1
+R7
+vsign_extend
+R1
+!i10b 1
+!s100 BBmddaHS635bfhY^1nzJY0
+R2
+IbQW;i6@EXbCSz[HV<X>Iz3
+R3
+R0
+w1774967289
+8sign_extend.v
+Fsign_extend.v
+!i122 1
+L0 1 8
+R4
+r1
+!s85 0
+31
+R5
+R8
+R6
+!i113 1
+R7
