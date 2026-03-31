@@ -8,12 +8,14 @@ module control_unit (
     output  reg           memtoreg,
     output  reg           branch,
     output  reg           jump,
+    output  reg           reg_dest,
     output  reg   [3:0]   alu_op
 );
 
 always @(*) begin
 
     regwrite = 0;
+    reg_dest = 0;
     alu_src  = 0;
     memtoreg = 0;
     memwrite = 0;
@@ -25,6 +27,7 @@ always @(*) begin
     case (op_code)
         6'b000000: begin
             regwrite = 1;
+            reg_dest = 1;
             alu_src  = 0;
             memtoreg = 0;
             memwrite = 0;
@@ -43,6 +46,7 @@ always @(*) begin
 
         6'b001000: begin
             regwrite = 1;
+            reg_dest = 0;
             alu_src  = 1;
             alu_op   = 4'b010;
         end
